@@ -1,0 +1,57 @@
+2020-06-30 19:44:33,907 - myapp - ERROR - Exception on /info [GET]
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\programdata\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\routm1\Udemy\FlaskAppDocker\myapp\view.py", line 50, in info
+    current_app.loggerr.info("Information page loaded successfully by {0} ".format(getpass.getuser()))
+  File "c:\programdata\anaconda3\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'Flask' object has no attribute 'loggerr'
+2020-06-30 19:46:24,307 - myapp - ERROR - Exception on /info [GET]
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\programdata\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\routm1\Udemy\FlaskAppDocker\myapp\view.py", line 50, in info
+    #    current_app.loggerr.info("Information page loaded successfully by {0} ".format(getpass.getuser()))
+  File "c:\programdata\anaconda3\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'Flask' object has no attribute 'loggerr'
+2020-06-30 19:47:55,695 - myapp - ERROR - Exception on /info [GET]
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\programdata\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\programdata\anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\routm1\Udemy\FlaskAppDocker\myapp\view.py", line 50, in info
+    #    current_app.loggerr.info("Information page loaded successfully by {0} ".format(getpass.getuser()))
+  File "c:\programdata\anaconda3\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'Flask' object has no attribute 'loggerr'
